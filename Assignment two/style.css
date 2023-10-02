@@ -1,0 +1,45 @@
+.head > div{
+    text-align: center;
+    font-family: crimson text;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+.head > div  a{
+    text-decoration: none;
+    color: white;
+    font-family: cinzel;
+}
+.head > div  h2{
+    word-spacing: 1px;
+}
+.verse{
+    font-size: 18px;
+    text-align: center;
+    font-family: philosopher;
+    font-weight: bolder;
+}
+.lyrics{
+    padding-top: 20px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+.foot{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: garamond;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "txt ig";
+}
+.f1{
+    grid-area: txt ;
+}
+.f2{
+    grid-area:ig;
+}
+.song{
+    width: 560px;
+    height: 300px;
+}
